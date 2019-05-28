@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage ('Checkout/Update SCM') {
 	steps {
-		echo 'Checking out code...'
+		bat 'gradle assemble --info'
 	}
       }
     }	    
