@@ -2,7 +2,7 @@
 <%@ page import="java.util.List" %>
 <html>
 <head>
-    <title>Publications</title>
+    <title>List Of Publications</title>
 </head>
 <body>
 <h1>Publications:</h1>
