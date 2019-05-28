@@ -6,5 +6,6 @@ pipeline {
 	steps {
 		echo 'Checking out code...'
 	}
-    }
+      }
+    }	    
 }
