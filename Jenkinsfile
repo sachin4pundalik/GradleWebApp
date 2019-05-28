@@ -1,11 +1,13 @@
 pipeline {
     agent any
 
-    stage('Gradle Build') {
-    if (isUnix()) {
-        sh './gradlew clean build'
-    } else {
-        bat 'gradlew.bat clean build assemble'
-    }
-}
+    stages{
+      stage('Gradle Build') {
+      if (isUnix()) {
+          sh './gradlew clean build'
+      } else {
+          bat 'gradlew.bat clean build assemble'
+      }
+   }
+ }
 }
